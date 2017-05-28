@@ -10,7 +10,7 @@ def gmail_checker(username,password):
         return (messages,unseen);
     except:
         return False,0
-messages,unseen=gmail_checker('sakthi.1260@gmail.com','vvsakthi88725')
+messages,unseen=gmail_checker('username@gmail.com','your password')
 print "%s messages, %s unseen" %(messages,unseen)
 report = 'You have '+unseen+' un read e mails chief'
 subprocess.check_output(['espeak',report])
